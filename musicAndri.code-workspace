@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "musicAndri",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "musicAndri"
+	}
+}
