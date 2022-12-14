@@ -8,16 +8,23 @@
     <link rel="stylesheet" href="musicAndri.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cd170d55a7.js" crossorigin="anonymous"></script>
-    <script src="script.js" type="text/javascript" ></script>  
+    <script src="script.js" type="text/javascript"></script>
     <title>musicAndri Home</title>
 </head>
 <!-- inizio navbar -->
+
 <body class="container">
     <h1 class="text-center text-secondary m-4"><i class="fa-solid fa-music fa-xs"></i> musicAndri</h1>
-    <h4 class="text-center text-dark m-4" style="--bs-text-opacity: .5;">Ciao a tutti! Sono Andrea e vi do il benvenuto
-        su musicAndri! Che dire di me...da quando son piccolo mi ha sempre affascinato la musica: i vari generi, le
-        basi, i testi, le copertine degli album. Addentrandovi nel sito ci saranno varie sezioni degli album che hanno
-        fatto da colonna sonora nella mia vita!</h4>
+    <div class="jumbotron text-center">
+        <img class="img-fluid wall" src="assets/wallpaper.jpeg" alt="">
+        <h4 class="text-center text-dark m-4" style="--bs-text-opacity: .5;">Ciao a tutti! Sono Andrea e vi do il
+            benvenuto
+            su musicAndri! Che dire di me...da quando son piccolo mi ha sempre affascinato la musica: i vari generi, le
+            basi, i testi, le copertine degli album. Addentrandovi nel sito ci saranno varie sezioni degli album che
+            hanno
+            fatto da colonna sonora nella mia vita!</h4>
+
+    </div>
     <nav class="navbar navbar-expand-lg bg-light mb-4">
         <div class="container-fluid">
             <a class="navbar-brand text-secondary" href="#bestalbum">Best Albums</a>
@@ -29,291 +36,357 @@
         </div>
     </nav>
     <!-- fine navbar inizio best album  -->
-    <h2 class="text-dark" id="bestalbum"data-toggle="collapse" data-target="#bestalbumsec" aria-expanded="false" aria-controls="bestalbumsec">Best Albums</h2><p>
-    <div class="container" id="bestalbumsec">
-        <div class="row">
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" id="score" style="width: 12rem;">
-                <img src="assets/chromatica.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Chromatica</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Lady Gaga</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Pop - 2020</li>
-                        <li class="list-group-item">43min, 8sec</li>
-                    </ul>
+    <button type="button" class="btn btn-primary position-relative">
+        Inbox
+    </button>
+
+    <section class="sec">
+        <h2 class="text-dark" id="bestalbum" data-toggle="collapse" data-target="#bestalbumsec" aria-expanded="false"
+            aria-controls="bestalbumsec">Best Albums</h2>
+        <p>
+        <div class="container" id="bestalbumsec">
+            <div class="row">
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" id="score"
+                    style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Pop
+                        </span>
+                    </h4>
+                    <img src="./assets/chromatica.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chromatica</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Lady Gaga</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pop - 2020</li>
+                            <li class="list-group-item">43min, 8sec</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" id="score" style="width: 12rem;">
-                <img src="assets/fallen.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Fallen</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Evanescence</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Rock - 2003</li>
-                        <li class="list-group-item">48min, 46sec</li>
-                    </ul>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" id="score"
+                    style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Rock
+                        </span>
+                    </h4>
+                    <img src="./assets/fallen.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fallen</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Evanescence</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rock - 2003</li>
+                            <li class="list-group-item">48min, 46sec</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Indie
+                        </span>
+                    </h4>
+                    <img src="./assets/mraz.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">We Sing. We Dance. We Steal Things.</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Jason Mraz</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Country - 2008</li>
+                            <li class="list-group-item">50min, 52sec</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Pop/Rock
+                        </span>
+                    </h4>
+                    <img src="./assets/avril.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Let Go</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Avril Lavigne</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rock - 2002</li>
+                            <li class="list-group-item">48min, 41sec</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Rock
+                        </span>
+                    </h4>
+                    <img src="./assets/vasco.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Stupido Hotel</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Vasco Rossi</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rock - 2001</li>
+                            <li class="list-group-item">39min, 43sec</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3 position-relative" style="width: 12rem;">
+                    <h4><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                            Rock
+                        </span>
+                    </h4>
+                    <img src="./assets/muse.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">The 2nd Law</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Muse</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rock - 2012</li>
+                            <li class="list-group-item">53min, 35sec</li>
+                        </ul>
+                    </div>
                 </div>
 
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/mraz.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">We Sing. We Dance. We Steal Things.</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Jason Mraz</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Country - 2008</li>
-                        <li class="list-group-item">50min, 52sec</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/avril.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Let Go</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Avril Lavigne</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Rock - 2002</li>
-                        <li class="list-group-item">48min, 41sec</li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/vasco.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Stupido Hotel</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Vasco Rossi</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Rock - 2001</li>
-                        <li class="list-group-item">39min, 43sec</li>
-                    </ul>
-                </div>
-
-
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/muse.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">The 2nd Law</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Muse</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Rock - 2012</li>
-                        <li class="list-group-item">53min, 35sec</li>
-                    </ul>
-                </div>
             </div>
 
         </div>
-
-    </div>
+    </section>
     <!-- fine best album, inizio the one -->
     <hr>
-    <h2 class="text-dark" id="theone" data-toggle="collapse" data-target="#theonesec" aria-expanded="false" aria-controls="theonesec">The One</h2>
-    <h5 class="text-danger">How to Dismantle an Atomic Bomb</h5>
-    <h5>U2</h5>
-    <h5>52min, 14sec</h5>
-    <h5>Rock, 2004</h5>
-    <div class="container" id="theonesec">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="assets/u2.jpg" class="img-fluid m-1 img-thumbnail" alt="...">
+    <section class="sec">
+        <h2 class="text-dark" id="theone" data-toggle="collapse" data-target="#theonesec" aria-expanded="false"
+            aria-controls="theonesec">The One</h2>
+        <h5 class="text-danger">How to Dismantle an Atomic Bomb</h5>
+        <h5>U2</h5>
+        <h5>52min, 14sec</h5>
+        <h5>Rock, 2004</h5>
+        <div class="container" id="theonesec">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/u2.jpg" class="img-fluid m-1 img-thumbnail" alt="...">
+                </div>
+                <div class="col-lg-6 text-dark bg-light">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Lenght</th>
+                                <th scope="col">Elimina</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="toremove">
+                                <th scope="row">1</th>
+                                <td>Vertigo</td>
+                                <td>3:14</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit" onclick="deleteTrack()">Elimina</button></td>
+                            </tr>
+                            <tr class="toremove"> 
+                                <th scope="row">2</th>
+                                <td>Miracle Drug</td>
+                                <td>3:59</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">3</th>
+                                <td>Sometimes You Can't Make It on Your Own</td>
+                                <td>5:08</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">4</th>
+                                <td>Love and Peace or Else</td>
+                                <td>4:50</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">5</th>
+                                <td>City of Blinding Lights</td>
+                                <td>5:47</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">6</th>
+                                <td>All Because of You</td>
+                                <td>3:39</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">7</th>
+                                <td>A Man and a Woman</td>
+                                <td>4:30</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">8</th>
+                                <td>Crumbs from Your Table</td>
+                                <td>5:03</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">9</th>
+                                <td>One Step Closer</td>
+                                <td>3:51</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">10</th>
+                                <td>Original of the Species</td>
+                                <td>4:41</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+                            <tr class="toremove">
+                                <th scope="row">11</th>
+                                <td>Yaweh</td>
+                                <td>4:21</td>
+                                <td><button class="btn btn-danger p-1 delete" type="submit">Elimina</button></td>
+
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                    <button class="addtrack" type="submit">Aggiungi Traccia</button>
+                </div>
             </div>
-            <div class="col-lg-6 text-dark bg-light">
-                <table class="table table-dark table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Title</th>
-                            <th scope="col">Lenght</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Vertigo</td>
-                            <td>3:14</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Miracle Drug</td>
-                            <td>3:59</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Sometimes You Can't Make It on Your Own</td>
-                            <td>5:08</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Love and Peace or Else</td>
-                            <td>4:50</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>City of Blinding Lights</td>
-                            <td>5:47</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">6</th>
-                            <td>All Because of You</td>
-                            <td>3:39</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">7</th>
-                            <td>A Man and a Woman</td>
-                            <td>4:30</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">8</th>
-                            <td>Crumbs from Your Table</td>
-                            <td>5:03</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">9</th>
-                            <td>One Step Closer</td>
-                            <td>3:51</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">10</th>
-                            <td>Original of the Species</td>
-                            <td>4:41</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">11</th>
-                            <td>Yaweh</td>
-                            <td>4:21</td>
-                        </tr>
-
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- fine the one, inizio commento -->
-        <h5 id="review" id="theone" data-toggle="collapse" data-target="#reviews" aria-expanded="false" aria-controls="reviews">Lascia un commento</h5>
+    </section>
+    <!-- fine the one, inizio commento -->
+    <section class="sec">
+        <h5 id="review" id="theone" data-toggle="collapse" data-target="#reviews" aria-expanded="false"
+            aria-controls="reviews">Lascia un commento</h5>
         <div class="form-floating" id="reviews">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                 style="height: 150px"></textarea>
             <label for="floatingTextarea2">Inserisci il tuo commento qui..</label>
             <button type="button" class="btn btn-primary btn-lg m-2">Invia il tuo commento</button>
         </div>
-    </div>
+        </div>
+    </section>
     <!-- fine commento, inizio worst album -->
     <hr>
-    <h2 class="text-dark" id="worstalbum" id="theone" data-toggle="collapse" data-target="#worsts" aria-expanded="false" aria-controls="worsts">Worst Albums</h2>
+    <section class="sec">
+        <h2 class="text-dark" id="worstalbum" id="theone" data-toggle="collapse" data-target="#worsts"
+            aria-expanded="false" aria-controls="worsts">Worst Albums</h2>
 
-    <div class="container" id="worsts">
-        <div class="row">
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/manson.png" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">The Golden Age of Grotesque</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Marilyn Manson
-                    </h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Rock - 2003</li>
-                        <li class="list-group-item">60min</li>
-                    </ul>
+        <div class="container" id="worsts">
+            <div class="row">
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
+                    <img src="./assets/manson.png" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">The Golden Age of Grotesque</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Marilyn Manson
+                        </h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rock - 2003</li>
+                            <li class="list-group-item">60min</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/madonna.png" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">American Life</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Madonna</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Pop - 2003</li>
-                        <li class="list-group-item">54min, 46sec</li>
-                    </ul>
-                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
+                    <img src="./assets/madonna.png" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">American Life</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Madonna</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pop - 2003</li>
+                            <li class="list-group-item">54min, 46sec</li>
+                        </ul>
+                    </div>
 
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/bieber.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Believe</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Justin Bieber</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Pop - 2012</li>
-                        <li class="list-group-item">58min, 42sec</li>
-                    </ul>
                 </div>
-            </div>
-            <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
-                <img src="assets/saint.jpg" class="card-img-top" alt="chromatica">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Saint Cloud</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Waxahatchee</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Pop - 2020</li>
-                        <li class="list-group-item">52min, 15sec</li>
-                    </ul>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
+                    <img src="./assets/bieber.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Believe</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Justin Bieber</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pop - 2012</li>
+                            <li class="list-group-item">58min, 42sec</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card m-4 col-lg-3 col-md-4 col-sm-6 col-xl-3" style="width: 12rem;">
+                    <img src="./assets/saint.jpg" class="card-img-top" alt="chromatica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Saint Cloud</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Waxahatchee</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pop - 2020</li>
+                            <li class="list-group-item">52min, 15sec</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
 
             </div>
-            <div class="col">
-
-            </div>
-
         </div>
-    </div>
-
+    </section>
     <!-- fine worst album, inizio album alla griglia -->
-    <h2 class="text-dark" id="griglia"  data-toggle="collapse" data-target="#griglias" aria-expanded="false" aria-controls="griglias">Album alla Griglia</h2>
+    <section class="sec">
+        <h2 class="text-dark" id="griglia" data-toggle="collapse" data-target="#griglias" aria-expanded="false"
+            aria-controls="griglias">Album alla Griglia</h2>
 
-    <div class="container-fluid" id="griglias">
-        <div class="row">
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/1.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/2.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/3.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/4.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/5.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/6.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/7.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/8.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/9.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/10.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/11.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/12.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/13.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/14.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3
+        <div class="container-fluid" id="griglias">
+            <div class="row">
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/1.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/2.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/3.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/4.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/5.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/6.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/7.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/8.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/9.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/10.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/11.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/12.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/13.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/14.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3
                  p-0"><img class="im1" src="assets/cover/15.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/16.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/17.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/16.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/17.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3
                  p-0"><img class="im1" src="assets/cover/18.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/19.jpeg" alt=""></div>
-            <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="assets/cover/20.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/19.jpeg" alt=""></div>
+                <div class="col col-lg-2 col-md-3 p-0"><img class="im1" src="./assets/cover/20.jpeg" alt=""></div>
 
 
+            </div>
         </div>
-    </div>
-
-<!-- fine album alla griglia -->
-
+    </section>
+    <!-- fine album alla griglia -->
 
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-crossorigin="anonymous"></script>
+<script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 
