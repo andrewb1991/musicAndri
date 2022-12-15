@@ -1,4 +1,3 @@
-
-
-const buttons = document.getElementsByClassName("delete");
-console.log(buttons);
+const removeLi = function() {
+    document.querySelector(`tbody tr`).style.display = `none`; 
+};
