@@ -1,3 +1,4 @@
-const deleteBtn = document.getElementsByClassName(`delete`);
-console.log(deleteBtn);
 
+
+const buttons = document.getElementsByClassName("delete");
+console.log(buttons);
